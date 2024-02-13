@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 
-public class HUD : MonoBehaviour
+public class SceneManager : MonoBehaviour
 {
     public GameManager gameManager;
 
@@ -54,7 +54,7 @@ public class HUD : MonoBehaviour
         Debug.Log("Bienvenido: " + PlayerPrefs.GetString("displayName"));
         Debug.Log("Bienvenido2: " + PlayerPrefs.GetString("displayName2"));
 
-        currentScene = SceneManager.GetActiveScene().buildIndex;
+        currentScene = UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex;
         
         //Seleccion de personaje
         index = PlayerPrefs.GetInt("IndexPlayer");
@@ -128,13 +128,13 @@ public class HUD : MonoBehaviour
 
     public void RestartLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1f;
     }
 
     public void Quit()
     {
-        SceneManager.LoadScene(3);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(3);
         Time.timeScale = 1f;
     }
 
@@ -231,7 +231,7 @@ public class HUD : MonoBehaviour
         imageScene.sprite = gameManager.scenesList[indexNextLevel].imageScene;
         nameScene.text = gameManager.scenesList[indexNextLevel].nameScene;
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
         //Time.timeScale = 1f;
         //Resume();
         //REVISAR POR QUE SE QEUDA EN PAUSE EL JUEGO
@@ -248,7 +248,7 @@ public class HUD : MonoBehaviour
     IEnumerator LoadAsync()
     {
         loadInProgress.SetActive(true);
-        AsyncOperation operation = SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
+        AsyncOperation operation = UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex + 1);
 
         while (!operation.isDone)
         {

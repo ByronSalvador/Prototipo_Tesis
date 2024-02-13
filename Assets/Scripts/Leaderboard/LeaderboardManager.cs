@@ -12,6 +12,7 @@ namespace Leaderboard
         [SerializeField] private Button getPlayerScoreButton;
         [SerializeField] private Button regresarButton;
         [SerializeField] private TextMeshProUGUI resultsText;
+        [SerializeField] private TextMeshProUGUI resultsTextScore;
         
         private const string LeaderboardName = "Leaderboard";
 
@@ -43,6 +44,7 @@ namespace Leaderboard
             
             playFabGetLeaderboard = new PlayFabGetLeaderboard();
             playFabGetLeaderboard.OnSuccess += result => resultsText.SetText(result);
+            playFabGetLeaderboard.OnScoreSuccess += result => resultsTextScore.SetText(result);
         }
         private void AddListeners()
         {
@@ -64,7 +66,7 @@ namespace Leaderboard
         private void OnRegresarButtonPressed()
         {
             Debug.Log("Regresando al menu principal");
-            SceneManager.LoadScene(3);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(3);
         }
         
     }

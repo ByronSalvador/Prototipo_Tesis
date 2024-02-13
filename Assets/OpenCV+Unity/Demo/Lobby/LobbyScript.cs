@@ -65,7 +65,7 @@ public class LobbyScript: MonoBehaviour {
 
 	private void UnloadScene() {
 		if (currentScene != null) {
-			SceneManager.UnloadScene (currentScene);
+			UnityEngine.SceneManagement.SceneManager.UnloadScene (currentScene);
 			currentScene = null;
 		}
 	}
@@ -75,6 +75,6 @@ public class LobbyScript: MonoBehaviour {
 		currentScene = sceneName;
 		mainMenu.SetActive (false);
 		backMenu.SetActive (true);
-		SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
+		UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
 	}
 }

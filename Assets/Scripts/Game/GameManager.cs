@@ -5,11 +5,12 @@ using PlayFab.ClientModels;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using PlayFab;
+using UnityEngine.Serialization;
 using Scene = LevelCustom.Scene;
 
 public class GameManager : MonoBehaviour
 {
-    private int puntosTotales;
+    private int puntosTotales = -1;
     public static int auxUpdatePoints = 0;
     private const string LeaderboardName = "Leaderboard";
     private PlayFabUpdatePlayerStatistics playFabUpdatePlayerStatistics;
@@ -24,7 +25,7 @@ public class GameManager : MonoBehaviour
     public List<Scene> scenesList;
 
     public static GameManager Instance { get; private set; }
-    public HUD hud;
+    [FormerlySerializedAs("hud")] public SceneManager sceneManager;
 
     public int PuntosTotales
     {
@@ -74,7 +75,7 @@ public class GameManager : MonoBehaviour
     {
         puntosTotales += puntosSumar;
         //Debug.Log(puntosTotales);
-        hud.ActualizarPuntos(puntosTotales);
+        sceneManager.ActualizarPuntos(puntosTotales);
     }
 
     public void GameOver()

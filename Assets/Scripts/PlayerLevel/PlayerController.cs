@@ -10,7 +10,7 @@ public class NewBehaviourScript : MonoBehaviour
 {
     Rigidbody rb;
 
-    [SerializeField] public RawImage imageDisplay;
+    //[SerializeField] public RawImage imageDisplay;
     //public float Velocidad = 8f;
 
     //Variables Globales
@@ -75,7 +75,7 @@ public class NewBehaviourScript : MonoBehaviour
 
     //Buffer historico de frames
     //private const int BufferSize = 12;    //Funciona bien con 12
-    private const int BufferSize = 30;
+    private const int BufferSize = 20;
     bool[] moveBuffer = new bool[BufferSize];
     int bufferIndex;
 
@@ -112,7 +112,7 @@ public class NewBehaviourScript : MonoBehaviour
         Mat frame = await GetFrameAsync();
         // Mostrar el resultado solo si hay movimiento y hay movimiento de color rojo o verde
         //Debug.Log("la dificultad esta con velpos " + velocidadPositiva + " con velneg " + velocidadNegativa);
-        //Cv2.ImShow("Color Detection", frame);
+        Cv2.ImShow("Color Detection", frame);
         rb.velocity = Vector3.zero;
 
         //Detectar movimiento instantaneo
@@ -235,7 +235,7 @@ public class NewBehaviourScript : MonoBehaviour
                 //Obtener una ROI para cada contorno de cada objeto rojo
                 OpenCvSharp.Rect roiRed = Cv2.BoundingRect(contour);
 
-
+/*
                 //*******************************Impresion del texto en el frame, no se necesita para la mecánica*******************************
                 // Definir el texto del mensaje
                 string message = $"Se han detectado objetos de color ROJO";
@@ -261,7 +261,7 @@ public class NewBehaviourScript : MonoBehaviour
                 Cv2.DrawContours(frame, contoursRed, -1, contourColorRed, contourThickness);
                 //***************************************************************************************************************************************
 
-
+*/
                 // Calcular el centro del rectángulo actual
                 Point centerRed = new Point(roiRed.X + roiRed.Width / 2, roiRed.Y + roiRed.Height / 2);
                 //Debug.Log("el centro rojo (center_red): " + centerRed);
@@ -291,10 +291,10 @@ public class NewBehaviourScript : MonoBehaviour
                 prevCenterRed = centerRed;
             }
         }
-        Texture2D texture = OpenCvSharp.Unity.MatToTexture(frame);
-        imageDisplay.texture = texture;
-        //return redMask;
-        return frame;
+        //Texture2D texture = OpenCvSharp.Unity.MatToTexture(frame);
+        //imageDisplay.texture = texture;
+        return redMask;
+        //return frame;
     }
 
     #endregion

@@ -13,7 +13,8 @@ namespace Options
 
         //public static float currentTime = 10f;
         //Umbral de velocidad de movimiento
-        public static double speedThreshold = 60;
+        //public static double speedThreshold = 30;
+        public static double speedThreshold = 80;
 
         public Slider sliderTime;
         public static float currentTime = 60f;

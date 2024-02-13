@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ScriptMovFondo : MonoBehaviour
+public class BackgroundController : MonoBehaviour
 {
     public float velocidad;
 

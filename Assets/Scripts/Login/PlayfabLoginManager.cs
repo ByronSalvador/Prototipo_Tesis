@@ -7,7 +7,7 @@ using TMPro;
 
 namespace Login
 {
-    public class PlayfabLogin : MonoBehaviour
+    public class PlayfabLoginManager : MonoBehaviour
     {
         [SerializeField] private LoginUi loginUi;
         [SerializeField] private RegisterUi registerUi;
@@ -271,7 +271,7 @@ namespace Login
             
             loginInProgress.SetActive(false);
 
-            SceneManager.LoadScene(3);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(3);
         }
 
         private readonly GetPlayerCombinedInfoRequestParams loginInfoParams =

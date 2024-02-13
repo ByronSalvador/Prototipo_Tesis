@@ -6,7 +6,7 @@ public class GlobalButtons : MonoBehaviour
 {
     //Pantalla de carga previa al nivel del juego
     [SerializeField] private GameObject loadInProgress;
-    //AudioSource soundEntry = SoundEntry.musicSource;
+    //AudioSource soundEntry = SoundManager.musicSource;
     
     public void PulsarJugar()
     {
@@ -21,7 +21,7 @@ public class GlobalButtons : MonoBehaviour
     IEnumerator LoadAsync()
     {
         loadInProgress.SetActive(true);
-        AsyncOperation operation = SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
+        AsyncOperation operation = UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex + 1);
 
         while (!operation.isDone)
         {
@@ -38,31 +38,31 @@ public class GlobalButtons : MonoBehaviour
     public void PulsarLeaderboard()
     {
         Debug.Log("Ir a leaderboards");
-        SceneManager.LoadScene(7);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(7);
     }
 
     public void PulsarJuego()
     {
         Debug.Log("Ir al juego");
-        SceneManager.LoadScene(4);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(4);
     }
 
     public void PulsarOpciones()
     {
         Debug.Log("Ir a Opciones");
-        SceneManager.LoadScene(8);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(8);
     }
 
     public void PulsarRegresar()
     {
         Debug.Log("Ir al menu");
-        SceneManager.LoadScene(3);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(3);
     }
 
     public void PulsarSalir()
     {
         Debug.Log("Salir del menu principal");
-        SceneManager.LoadScene(0);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
     }
 
     public void PulsarQuitMenu()
@@ -75,16 +75,16 @@ public class GlobalButtons : MonoBehaviour
     {
         Debug.Log("CerrandoSesion");
         PlayFab.PlayFabClientAPI.ForgetAllCredentials();
-        SceneManager.LoadScene(2);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(2);
     }
 
     public void MusicPause()
     {
-        SoundEntry.musicSource.Pause();
+        SoundManager.musicSource.Pause();
     }
     
     public void MusicResume()
     {
-        SoundEntry.musicSource.UnPause();
+        SoundManager.musicSource.UnPause();
     }
 }

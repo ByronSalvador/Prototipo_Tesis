@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Serialization;
 
 
-public class Colision : MonoBehaviour
+public class Item : MonoBehaviour
 {
     [FormerlySerializedAs("GameManager")] public GameManager gameManager;
     [FormerlySerializedAs("Player")] public GameObject player;

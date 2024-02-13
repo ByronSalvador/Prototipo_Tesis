@@ -3,12 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SoundEntry : MonoBehaviour
+public class SoundManager : MonoBehaviour
 {
-    public static SoundEntry instance;
+    public static SoundManager instance;
     public static AudioSource musicSource;
     
-    public SoundEntry Instance
+    public SoundManager Instance
     {
         get
         {

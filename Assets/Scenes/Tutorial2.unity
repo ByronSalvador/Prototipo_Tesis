@@ -1834,7 +1834,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Si ves un controno rojo alrededor del objeto en tu pierna, estas listo
+  m_text: Si ves un contorno rojo alrededor del objeto en tu pierna, estas listo
     para jugar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -3070,7 +3070,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af92340d8b0820448bed8b44a23a6ba1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imageDisplay: {fileID: 1190553420}
 --- !u!54 &1190553419
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3144,8 +3143,7 @@ GameObject:
   - component: {fileID: 1375119875}
   - component: {fileID: 1375119879}
   - component: {fileID: 1375119878}
-  - component: {fileID: 1375119877}
-  - component: {fileID: 1375119876}
+  - component: {fileID: 1375119880}
   m_Layer: 5
   m_Name: RawImageCamera (1)
   m_TagString: Untagged
@@ -3173,46 +3171,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1109, y: 467}
   m_SizeDelta: {x: 1464.7, y: 535.4}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1375119876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1375119874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af92340d8b0820448bed8b44a23a6ba1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageDisplay: {fileID: 1375119878}
---- !u!54 &1375119877
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1375119874}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &1375119878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3248,6 +3206,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1375119874}
   m_CullTransparentMesh: 1
+--- !u!114 &1375119880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375119874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b27688b13bb19042afef34300c69841, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imageDisplay: {fileID: 1375119878}
 --- !u!1 &1418590221
 GameObject:
   m_ObjectHideFlags: 0
