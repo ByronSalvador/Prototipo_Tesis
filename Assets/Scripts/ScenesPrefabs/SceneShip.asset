@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dd916dd037bb274a801002352538b5f, type: 3}
+  m_Name: SceneShip
+  m_EditorClassIdentifier: 
+  scenePrefab: {fileID: 2315589926787473304, guid: 017f12d61f5594d4aa38769d9dee7b30, type: 3}
+  imageScene: {fileID: 21300000, guid: 833b52dfbfc484f42ae8fda06d52c7d7, type: 3}
+  nameScene: VistaNave

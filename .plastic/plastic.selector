@@ -1,0 +1,4 @@
+repository "Prototipo_Tesis@INKS_SA@cloud"
+  path "/"
+    br "/main"
+    co "/main"

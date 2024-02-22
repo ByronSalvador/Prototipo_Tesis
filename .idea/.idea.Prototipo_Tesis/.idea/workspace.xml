@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aa7f41d3-cd9d-4345-a1d0-2eee289cc06f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototipo_Tesis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototipo_Tesis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.plastic/plastic.changes" beforeDir="false" afterPath="$PROJECT_DIR$/.plastic/plastic.changes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.plastic/plastic.wktree" beforeDir="false" afterPath="$PROJECT_DIR$/.plastic/plastic.wktree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OpenCV+Unity/Demo/Lobby/LobbyScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OpenCV+Unity/Demo/Lobby/LobbyScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Characters/Car.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Characters/Car.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Characters/Eagle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Characters/Eagle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Characters/Jugador.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Characters/Jugador.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscenaJuego.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscenaJuego.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Leaderboard.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Leaderboard.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleSceneLogin.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleSceneLogin.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tutorial1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tutorial1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tutorial2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tutorial2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Colision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Objects/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GlobalButtons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/GlobalButtons.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HUD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneLevel/SceneManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Leaderboard/Leaderboard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Leaderboard/LeaderboardManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Leaderboard/PlayFabGetLeaderboard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Leaderboard/PlayFabGetLeaderboard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Login/PlayfabLogin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Login/PlayfabLoginManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MotionTracking.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectTracking.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Options/GlobalVar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Options/GlobalVar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayFabConstants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Login/PlayFabConstants.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptMovFondo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneLevel/BackgroundController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptMovimiento.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerLevel/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sound/SoundEntry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sound/SoundManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/1900b0aEDbg-inputdata.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1900b0aEDbg-inputdata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/1900b0aEDbg.dag" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1900b0aEDbg.dag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/1900b0aEDbg.dag.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1900b0aEDbg.dag.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/1900b0aEDbg.dag.payloads" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1900b0aEDbg.dag.payloads" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/1900b0aEDbg.dag_derived" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1900b0aEDbg.dag_derived" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/1900b0aEDbgSkipCompile-inputdata.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1900b0aEDbgSkipCompile-inputdata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/1900b0aEDbgSkipCompile.dag" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1900b0aEDbgSkipCompile.dag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/1900b0aP-inputdata.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1900b0aP-inputdata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/1900b0aP.dag" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1900b0aP.dag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/1900b0aP.dag.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1900b0aP.dag.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/1900b0aP.dag.payloads" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1900b0aP.dag.payloads" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/1900b0aP.dag_derived" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1900b0aP.dag_derived" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/1900b0aP.dag_fsmtime" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1900b0aP.dag_fsmtime" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/backend1.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/backend1.traceevents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/backend2.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/backend2.traceevents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/buildprogram0.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/buildprogram0.traceevents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/buildreport.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/buildreport.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/buildreport.json_0.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/buildreport.json_0.traceevents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/buildreport.json_1.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/buildreport.json_1.traceevents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/buildreport.json_2.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/buildreport.json_2.traceevents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/fullprofile.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/fullprofile.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.log.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.log.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/BuildPlayerData/Editor/TypeDb-All.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BuildPlayerData/Editor/TypeDb-All.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/BuildPlayerData/Player/TypeDb-All.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BuildPlayerData/Player/TypeDb-All.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/LastBuild.buildreport" beforeDir="false" afterPath="$PROJECT_DIR$/Library/LastBuild.buildreport" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/globalgamemanagers" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/globalgamemanagers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/globalgamemanagers.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/globalgamemanagers.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/level0" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/level0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/level1" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/level1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/level2" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/level2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/level3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/level3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/level4" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/level4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/level5" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/level5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/level6" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/level6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/level7" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/level7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/level8" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/level8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/resources.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/resources.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/sharedassets0.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/sharedassets0.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/sharedassets1.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/sharedassets1.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/sharedassets1.assets.resS" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/sharedassets1.assets.resS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/sharedassets2.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/sharedassets2.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/sharedassets3.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/sharedassets3.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/sharedassets3.assets.resS" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/sharedassets3.assets.resS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/sharedassets4.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/sharedassets4.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/sharedassets4.assets.resS" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/sharedassets4.assets.resS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/sharedassets5.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/sharedassets5.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/sharedassets6.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/sharedassets6.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/sharedassets6.assets.resS" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/sharedassets6.assets.resS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/sharedassets7.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/sharedassets7.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/sharedassets8.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/Data/sharedassets8.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/DataBuildDirtyInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/DataBuildDirtyInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/ScriptsOnlyCache.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PlayerDataCache/Win64/ScriptsOnlyCache.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Search/transactions.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Search/transactions.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/com.unity.ide.rider/PersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/com.unity.ide.rider/PersistedState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ilpp.pid" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ilpp.pid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="DesarrolloFuncionalidad" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ByronSalvador&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="4ad5a396-0b21-4797-9e65-d33125941b9a" />
+        <option name="url" value="https://github.com/ByronSalvador/Prototipo_Tesis.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c2d036c16ca64e0eb93703a3b13e733a171c00/09/70721789/PlayerPrefs.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c2d036c16ca64e0eb93703a3b13e733a171c00/7d/4d2c4550/Debug.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c2d036c16ca64e0eb93703a3b13e733a171c00/fd/7e079580/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Colision.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelCustom/Characters.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelCustom/Scene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Options/GlobalVar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptTutorial2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound/SoundManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Util/PopUpManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/InputModules/BaseInput.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2X3KRPmyxEH2la6GMc7m7fH05n2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Desarrollo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\salva\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\salva\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\salva\\AppData\\Local\\Symbols\\src&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Player.Unity.exe (Prototipo_Tesis)">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../BetaV2\Beta_Aventurados.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\Tesis\PrototipoV2" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../PrototipoV2\PrototipoV2.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\Tesis\PrototipoV2" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.1f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath D:\Tesis\PrototipoJuego\Prototipo_Tesis -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\Tesis\PrototipoJuego\Prototipo_Tesis" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.1f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath D:\Tesis\PrototipoJuego\Prototipo_Tesis -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\Tesis\PrototipoJuego\Prototipo_Tesis" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.1f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\Tesis\PrototipoJuego\Prototipo_Tesis -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\Tesis\PrototipoJuego\Prototipo_Tesis" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.1f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\Tesis\PrototipoJuego\Prototipo_Tesis -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\Tesis\PrototipoJuego\Prototipo_Tesis" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Unity.exe (Prototipo_Tesis)" type="UnityPlayer" factoryName="UnityAttachToPlayer" temporary="true">
+      <option name="host" value="127.0.0.1" />
+      <option name="pid" value="27292" />
+      <option name="playerId" value="EditorHelper(Unity.exe-AssetImportWorker1-Prototipo_Tesis)" />
+      <option name="playerInstanceId" value="Prototipo_Tesis" />
+      <option name="port" value="56292" />
+      <option name="projectName" value="Prototipo_Tesis" />
+      <option name="roleName" value="AssetImportWorker1" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unity.exe (Prototipo_Tesis)" type="UnityPlayer" factoryName="UnityAttachToPlayer" temporary="true">
+      <option name="host" value="127.0.0.1" />
+      <option name="pid" value="27292" />
+      <option name="playerId" value="EditorHelper(Unity.exe-AssetImportWorker1-Prototipo_Tesis)" />
+      <option name="playerInstanceId" value="Prototipo_Tesis" />
+      <option name="port" value="56292" />
+      <option name="projectName" value="Prototipo_Tesis" />
+      <option name="roleName" value="AssetImportWorker1" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
+      <item itemvalue="Attach to Unity Player.Unity.exe (Prototipo_Tesis)" />
+      <item itemvalue="Standalone Player.Standalone Player" />
+      <item itemvalue="Standalone Player.Start Unity" />
+      <item itemvalue="Standalone Player.Unit Tests (batch mode)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Attach to Unity Player.Unity.exe (Prototipo_Tesis)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa7f41d3-cd9d-4345-a1d0-2eee289cc06f" name="Changes" comment="" />
+      <created>1697852315991</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697852315991</updated>
+      <workItem from="1697852320971" duration="1642000" />
+      <workItem from="1697854064818" duration="646000" />
+      <workItem from="1697854735850" duration="5159000" />
+      <workItem from="1697863191050" duration="1384000" />
+      <workItem from="1698081934274" duration="1915000" />
+      <workItem from="1698100432066" duration="8016000" />
+      <workItem from="1698200540735" duration="764000" />
+      <workItem from="1698599293651" duration="2391000" />
+      <workItem from="1698810987406" duration="293000" />
+      <workItem from="1698855024535" duration="6420000" />
+      <workItem from="1699285672892" duration="3136000" />
+      <workItem from="1699372299792" duration="3858000" />
+      <workItem from="1699384278818" duration="144000" />
+      <workItem from="1699581997996" duration="3551000" />
+      <workItem from="1700251124150" duration="4424000" />
+      <workItem from="1700490501436" duration="602000" />
+      <workItem from="1700494131641" duration="4949000" />
+      <workItem from="1700507244180" duration="4598000" />
+      <workItem from="1700573670545" duration="6598000" />
+      <workItem from="1700594203621" duration="5528000" />
+      <workItem from="1700606768835" duration="2408000" />
+      <workItem from="1700690988462" duration="3781000" />
+      <workItem from="1700750429583" duration="2688000" />
+      <workItem from="1700759001089" duration="9338000" />
+      <workItem from="1700830803814" duration="1573000" />
+      <workItem from="1700864482137" duration="7152000" />
+      <workItem from="1701289220192" duration="2524000" />
+      <workItem from="1701303156867" duration="4215000" />
+      <workItem from="1701348072559" duration="3810000" />
+      <workItem from="1701371654037" duration="1899000" />
+      <workItem from="1701374345631" duration="1223000" />
+      <workItem from="1701889461700" duration="493000" />
+      <workItem from="1702436817473" duration="2686000" />
+      <workItem from="1704458268920" duration="1408000" />
+      <workItem from="1705322365160" duration="12132000" />
+      <workItem from="1705415305913" duration="7049000" />
+      <workItem from="1705450715616" duration="10932000" />
+      <workItem from="1705631730360" duration="10094000" />
+      <workItem from="1705702119407" duration="5235000" />
+      <workItem from="1705795716384" duration="4251000" />
+      <workItem from="1705879219763" duration="9859000" />
+      <workItem from="1705925845976" duration="9528000" />
+      <workItem from="1706016043226" duration="15145000" />
+      <workItem from="1706396070893" duration="1805000" />
+      <workItem from="1706544390912" duration="3068000" />
+      <workItem from="1706794859901" duration="1669000" />
+      <workItem from="1707072108048" duration="1871000" />
+      <workItem from="1707188266350" duration="6353000" />
+      <workItem from="1707402010922" duration="4959000" />
+      <workItem from="1707799709584" duration="1952000" />
+    </task>
+    <task id="LOCAL-00001" summary="Fix: mejoramiento de la capacidad de detectar movimiento de objetos de color rojo">
+      <option name="closed" value="true" />
+      <created>1697861359892</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697861359892</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Refactor: corrección de ciertas clases">
+      <option name="closed" value="true" />
+      <created>1698106930285</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698106930285</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Refactor: cambio en ciertas variables">
+      <option name="closed" value="true" />
+      <created>1698811049425</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698811049425</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Feat:Presentación del nombre de usaurio en el leaderboard">
+      <option name="closed" value="true" />
+      <created>1698860203734</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698860203734</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Refactor: limpieza de código y cambio en nombre de variables">
+      <option name="closed" value="true" />
+      <created>1698861409435</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698861409435</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Feat: configuración del tiempo de juego a través del menú opciones">
+      <option name="closed" value="true" />
+      <created>1699376257055</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699376257055</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix: Llamado a variables Globales desde GlobalVar.cs hacia ScriptMovimiento.cs">
+      <option name="closed" value="true" />
+      <created>1699384377746</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699384377746</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fix: Presentación de textos en los Leaderboards">
+      <option name="closed" value="true" />
+      <created>1699586433610</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1699586433610</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Feat: adición de las ventanas de Ayuda en todas las interfaces&#10;Feat: adición del menú de &quot;Pause&quot; en el nivel&#10;Fix: sistema de puntuaciones: cuando choca con un CollectableObject se suma un punto">
+      <option name="closed" value="true" />
+      <created>1700512526539</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1700512526539</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Feat: incorporación del sistema de selección de personajes.Se creó tres prefabs por cada personaje con su respectivo movimiento.&#10;Fix: sistema de puntos y reinicio de posición para cada personaje">
+      <option name="closed" value="true" />
+      <created>1700613945523</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1700613945523</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Feat: sistema de seleccion del nivel a jugar: estan implementados dos niveles jugables">
+      <option name="closed" value="true" />
+      <created>1700698259424</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1700698259424</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Feat: presentación del nombre de usuario en la pantalla de menu. Se añade un progressbar de tiempo durante la ejecución del nivel del juego.&#10;Fix: Estetica de las interfaces de: MenuPrincipal, Seleccion de Nivel, y los botones en general">
+      <option name="closed" value="true" />
+      <created>1700783073032</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1700783073032</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Feat: incorporación de nuevas escenas a manera de tutoriales; se incluyó ventanas emergentes en caso de errores en login y register&#10;Fix: se corrigieron los indices de las escenas; las ventanas de ayuda y la estética en general">
+      <option name="closed" value="true" />
+      <created>1701353138973</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1701353138973</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Feat: selección de la dificultad del juego&#10;Fix: corrección de las interfaces, botón para ver la contraseña y el displayName del usuario en el menú principal&#10;Style: formato del texto en el script de ScriptMovimiento">
+      <option name="closed" value="true" />
+      <created>1705419709255</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1705419709255</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Feat: se anade la función de contar los pasos que da el usuario durante el juego&#10;Fix: se mejoró el algoritmo de detección de &quot;un paso&quot; para mejorar el movimiento del personaje y facilitar el analisis de la caminata">
+      <option name="closed" value="true" />
+      <created>1705643233249</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1705643233250</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Feat: se añade la funcionalidad de ResetPasswordUi&#10;Feat: se añade la interfaz de un contador de pasos&#10;Feat: se añade la opción de jugar un siguiente nivel&#10;Feat: se añade parcialmente sonido al videojuego y a los botones&#10;Fix: se mejora la interfaz de MainScene">
+      <option name="closed" value="true" />
+      <created>1705814815948</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1705814815948</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Feat: Incorporación de musica en todo el videojuego&#10;Feat: Se añade interfaces para manejo de errores en LoginScene&#10;Fix: DisplayName en MainMenu funciona correctamente&#10;Fix: Se arregló la actualizacion de los puntos que obtiene el usuario en el juego hacia la bdd&#10;Fix: el conteo general de los pasos se mejoró">
+      <option name="closed" value="true" />
+      <created>1705897525264</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1705897525264</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Feat: ScreenReader en menús de Ayuda y Avisos&#10;Feat: se añadieron botones que permiten pausar y reanudar la reproduccion de la música del juego&#10;Feat: En reporteria se añadió información del usuario logeado y el tiempo del nivel&#10;Fix: se solucionó el nombre del usuario que se presenta en el menúPrincipal. Ya se muestra el nombre del usuario recien registrado y el usuario Invitado&#10;Fix: Se corrigieron errores relacoinados con la resolución de las interfaces en distintas pantallas&#10;Fix: se añadieron texto a los botones del juego">
+      <option name="closed" value="true" />
+      <created>1706322486319</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1706322486319</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Feat: Ajuste de cámara en Tutorial2&#10;Feat: Incorporación de nuevas escenas de juego&#10;Fix: Tutoriales y sus lectores de texto">
+      <option name="closed" value="true" />
+      <created>1706589373547</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1706589373547</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnitTestsCoverage.Settings">
+    <option name="coveragePercentColumnWidth" value="150" />
+    <option name="sortOrder" value="DESCENDING" />
+    <option name="sortedColumn" value="1" />
+    <option name="symbolColumnWidth" value="105" />
+    <coverage-tree-state>
+      <expand />
+      <select />
+    </coverage-tree-state>
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Fix: mejoramiento de la capacidad de detectar movimiento de objetos de color rojo&#10;Refactor: cambio de nombre de variables" />
+    <MESSAGE value="Feat: se añade la funcionalidad de login y signin con usuario, contraseña y correo. Se integra la bdd" />
+    <MESSAGE value="Refactor: corrección de ciertas clases" />
+    <MESSAGE value="Refactor: cambio en ciertas variables" />
+    <MESSAGE value="Feat:Presentación del nombre de usaurio en el leaderboard" />
+    <MESSAGE value="Refactor: limpieza de código y cambio en nombre de variables" />
+    <MESSAGE value="Feat: configuración del tiempo de juego a través del menú opciones" />
+    <MESSAGE value="Fix: Llamado a variables Globales desde GlobalVar.cs hacia ScriptMovimiento.cs" />
+    <MESSAGE value="Fix: Presentación de textos en los Leaderboards" />
+    <MESSAGE value="Feat: adición de las ventanas de Ayuda en todas las interfaces&#10;Feat: adición del menú de &quot;Pause&quot; en el nivel&#10;Fix: sistema de puntuaciones: cuando choca con un CollectableObject se suma un punto" />
+    <MESSAGE value="Feat: incorporación del sistema de selección de personajes.Se creó tres prefabs por cada personaje con su respectivo movimiento.&#10;Fix: sistema de puntos y reinicio de posición para cada personaje" />
+    <MESSAGE value="Feat: sistema de seleccion del nivel a jugar: estan implementados dos niveles jugables" />
+    <MESSAGE value="Feat: presentación del nombre de usuario en la pantalla de menu. Se añade un progressbar de tiempo durante la ejecución del nivel del juego.&#10;Fix: Estetica de las interfaces de: MenuPrincipal, Seleccion de Nivel, y los botones en general" />
+    <MESSAGE value="Feat: incorporación de nuevas escenas a manera de tutoriales; se incluyó ventanas emergentes en caso de errores en login y register&#10;Fix: se corrigieron los indices de las escenas; las ventanas de ayuda y la estética en general" />
+    <MESSAGE value="Feat: selección de la dificultad del juego&#10;Fix: corrección de las interfaces, botón para ver la contraseña y el displayName del usuario en el menú principal&#10;Style: formato del texto en el script de ScriptMovimiento" />
+    <MESSAGE value="Feat: se anade la función de contar los pasos que da el usuario durante el juego&#10;Fix: se mejoró el algoritmo de detección de &quot;un paso&quot; para mejorar el movimiento del personaje y facilitar el analisis de la caminata" />
+    <MESSAGE value="Feat: se añade la funcionalidad de ResetPasswordUi&#10;Feat: se añade la interfaz de un contador de pasos&#10;Feat: se añade la opción de jugar un siguiente nivel&#10;Feat: se añade parcialmente sonido al videojuego y a los botones&#10;Fix: se mejora la interfaz de MainScene" />
+    <MESSAGE value="Feat: Incorporación de musica en todo el videojuego&#10;Feat: Se añade interfaces para manejo de errores en LoginScene&#10;Fix: DisplayName en MainMenu funciona correctamente&#10;Fix: Se arregló la actualizacion de los puntos que obtiene el usuario en el juego hacia la bdd&#10;Fix: el conteo general de los pasos se mejoró" />
+    <MESSAGE value="Feat: ScreenReader en menús de Ayuda y Avisos&#10;Feat: se añadieron botones que permiten pausar y reanudar la reproduccion de la música del juego&#10;Feat: En reporteria se añadió información del usuario logeado y el tiempo del nivel&#10;Fix: se solucionó el nombre del usuario que se presenta en el menúPrincipal. Ya se muestra el nombre del usuario recien registrado y el usuario Invitado&#10;Fix: Se corrigieron errores relacoinados con la resolución de las interfaces en distintas pantallas&#10;Fix: se añadieron texto a los botones del juego" />
+    <MESSAGE value="Feat: Ajuste de cámara en Tutorial2&#10;Feat: Incorporación de nuevas escenas de juego&#10;Fix: Tutoriales y sus lectores de texto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: Ajuste de cámara en Tutorial2&#10;Feat: Incorporación de nuevas escenas de juego&#10;Fix: Tutoriales y sus lectores de texto" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
